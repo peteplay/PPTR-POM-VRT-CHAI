@@ -1,0 +1,903 @@
+[
+  {
+    "description": "    As a user I want to see all my account options",
+    "keyword": "Feature",
+    "name": "Transfer Funds",
+    "line": 1,
+    "id": "transfer-funds",
+    "tags": [],
+    "uri": "features\\AccountSummaryTabs.feature",
+    "elements": [
+      {
+        "id": "transfer-funds;show-all-tabs",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Show all tabs",
+        "tags": [
+          {
+            "name": "@accountsummarytabs",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the Signin button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page is displayed",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I complete the login form",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I expect to see the application content",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Account Activity\" Tab",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the \"Account Activity\" Details are displayed",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select the logout option",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 487000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "transfer-funds;show-all-tabs",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Show all tabs",
+        "tags": [
+          {
+            "name": "@accountsummarytabs",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the Signin button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page is displayed",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I complete the login form",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I expect to see the application content",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Transfer Funds\" Tab",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the \"Transfer Funds\" Details are displayed",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select the logout option",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 423000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "transfer-funds;show-all-tabs",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Show all tabs",
+        "tags": [
+          {
+            "name": "@accountsummarytabs",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the Signin button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page is displayed",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I complete the login form",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I expect to see the application content",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Pay Bills\" Tab",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the \"Pay Bills\" Details are displayed",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select the logout option",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "transfer-funds;show-all-tabs",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Show all tabs",
+        "tags": [
+          {
+            "name": "@accountsummarytabs",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the Signin button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page is displayed",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I complete the login form",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I expect to see the application content",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"My Money Map\" Tab",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the \"My Money Map\" Details are displayed",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select the logout option",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "transfer-funds;show-all-tabs",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Show all tabs",
+        "tags": [
+          {
+            "name": "@accountsummarytabs",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the Signin button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page is displayed",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I complete the login form",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I expect to see the application content",
+            "match": {
+              "location": "features\\steps\\loginSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Online Statements\" Tab",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the \"Online Statements\" Details are displayed",
+            "match": {
+              "location": "features\\steps\\accountSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select the logout option",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the homepage is displayed",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\steps\\support\\hook.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
