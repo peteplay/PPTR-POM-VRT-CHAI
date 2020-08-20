@@ -1,5 +1,5 @@
 # PPTR-POM-VRT-CHAI
-Puppeteer with Page Object Model, Visual Regression and Chai Expect Assertions
+Puppeteer with Cucumber, Page Object Model, Visual Regression and Chai Expect Assertions
 
 Import the node libraries
 >__npm update__
