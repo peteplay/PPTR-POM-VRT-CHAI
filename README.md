@@ -9,3 +9,6 @@ To run the tests with the 3 tags
 
 To run the tests with the 1 tags>
 >__./node_modules/.bin/cucumber-js --tags='@feedback'  features -f json:report/cucumber_report.json__
+
+To generate the cucumber report
+>__node cucumber-reporter.js__
