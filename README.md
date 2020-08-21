@@ -46,6 +46,7 @@ Add the following to the Cucumber settings.json
 ],
 "cucumberautocomplete.syncfeatures": "features/*features",
 "cucumberautocomplete.strictGherkinCompletion": true,
+"cucumberautocomplete.smartSnippets": true,Have 
 
 
     "cucumberautocomplete.customParameters": [
