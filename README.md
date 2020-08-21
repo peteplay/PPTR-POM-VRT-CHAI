@@ -23,3 +23,46 @@ Extensions
 - npm intellisense
 - __prettier__
 - __vscode-icons__
+
+
+Add the following to the Cucumber settings.json
+
+*
+{
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+
+"cucumberautocomplete.steps": [
+ //   "./features/*.feature",
+ //   "./step_definitions/steps.js"
+ 
+ // Cucumber project
+ "features/steps/*.js",
+ "node_modules/qa_lib/src/step_definitions/*.js"
+
+ //"./features/*.feature",
+ //"./features/steps/*steps.js"
+
+],
+"cucumberautocomplete.syncfeatures": "features/*features",
+"cucumberautocomplete.strictGherkinCompletion": true,
+
+
+    "cucumberautocomplete.customParameters": [
+    
+    ],
+    "cucumberautocomplete.pages": {
+    
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
+*
