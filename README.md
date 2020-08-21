@@ -12,3 +12,6 @@ To run the tests with the 1 tags>
 
 To generate the cucumber report
 >__node cucumber-reporter.js__
+
+Install node.js and dependencies as required
+>__https://nodejs.org/en/__
