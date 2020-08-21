@@ -26,6 +26,7 @@ Extensions
 
 
 Add the following to the Cucumber settings.json
+For more options see here, https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete
 
 ```
 {
