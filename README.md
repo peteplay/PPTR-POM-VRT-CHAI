@@ -27,6 +27,7 @@ Extensions
 
 Add the following to the Cucumber settings.json
 
+```
 {
     "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-icons",
@@ -64,4 +65,4 @@ Add the following to the Cucumber settings.json
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
-
+```
