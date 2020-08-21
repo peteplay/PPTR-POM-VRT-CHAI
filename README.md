@@ -17,7 +17,7 @@ Install node.js and dependencies as required
 >__https://nodejs.org/en/__
 
 Extensions
-- __Cucuumber (Gherkin) Full Support__
+- __Cucumber (Gherkin) Full Support__
 - Excel Viewer
 - Jest
 - npm intellisense
